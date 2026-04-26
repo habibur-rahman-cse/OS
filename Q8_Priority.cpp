@@ -30,10 +30,7 @@ void nonPreemptive(vector<Process> &p, int n) {
         }
 
         if (idx == -1) {
-            int next = 1e9;
-            for (int i = 0; i < n; i++)
-                if (!p[i].done) next = min(next, p[i].at);
-            time = next;
+            time++;
             continue;
         }
 
@@ -116,7 +113,7 @@ void printTable(vector<Process> &p, int n) {
 // ─── Main ───────────────────────────────────────────────────
 int main() {
     int n;
-    cin >> n;
+    cin >> n; // number of process
 
     vector<Process> p(n);
     for (int i = 0; i < n; i++) {

@@ -1,0 +1,9 @@
+1. Basics of UNIX/LINUX commands. 
+2. Shell programming 
+3. Implementation of CPU scheduling. a) Round Robin b) SJF c) FCFS d) Priority 
+4. Implement all file allocation strategies 
+5. Implement Semaphores for handling process synchronization 
+6. Implement Bankers algorithm for Dead Lock Avoidance and detection 
+7. Implement the all page replacement algorithms a) FIFO b) LRU c) LFU 
+8. Implement Paging Technique of memory management 
+9. Implement Threading & Synchronization Applications 
